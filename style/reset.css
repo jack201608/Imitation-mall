@@ -1,0 +1,81 @@
+body,ul,h1,h2,h3,p,input{margin: 0;padding: 0;}
+body{font:14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;}
+a{text-decoration: none;}
+li{list-style: none;}
+
+select,input,textarea{outline: none;border:none;background: none;}
+
+.fl{float: left;}
+.fr{float: right;}
+
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom:1;}
+
+img{border: 0px;}
+
+/*弹出框样式*/
+.loginitem input {
+    width: 350px;
+    height: 40px;
+}
+
+.loginitem a {
+    width: 353px;
+    height: 50px;
+    background-color: #428ab4;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.loginitem {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#dloginbox {
+    display: none;
+}
+#regist{
+	display:none;
+}
+
+/*注册窗口样式*/
+#dreg {
+    width: 300px;
+    height: 500px;
+}
+
+.regitem div {
+    float: left;
+}
+
+.regtitle {
+    width: 64px;
+}
+
+.regtext input {
+    width: 210px;
+    height: 30px;
+    border:1px solid #aaa;
+}
+
+.regitem {
+    margin: 10px;
+    height: 40px;
+}
+
+.regitem a {
+        width: 50px;
+        height: 35px;
+        background-color: #369b4f;
+        display: block;
+        color: #fff;
+        margin-right: 13px;
+        text-align: center;
+        line-height: 35px;
+        text-decoration: none;
+    }
